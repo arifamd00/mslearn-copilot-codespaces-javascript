@@ -123,3 +123,10 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+/* Add an amazing animation to the social media icons on hover */
+img.socialIcon:hover {
+  transform: scale(1.2) rotate(-10deg);
+  transition: transform 0.3s cubic-bezier(0.4, 0.2, 0.2, 1);
+  box-shadow: 0 4px 20px rgba(78, 86, 126, 0.2);
+}
